@@ -1,4 +1,4 @@
-package com.exercise.contactusform.service;
+ilpackage com.exercise.contactusform.service;
 
 import com.exercise.contactusform.model.ContactUs;
 import jakarta.mail.Message;
@@ -33,7 +33,7 @@ public class ContactUsMailServiceImpl implements ContactUsMailServiceInterface{
 
         try{
 
-            String toAddress = "fitmegut@gmail.com";
+            String toAddress = "email@gmail.com";
             String fromAddress = contactUs.getEmail();
 
             String senderName = contactUs.getFullName();
