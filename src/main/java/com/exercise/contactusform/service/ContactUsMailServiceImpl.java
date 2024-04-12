@@ -1,4 +1,4 @@
-package com.exercise.contactusform.service;
+ilpackage com.exercise.contactusform.service;
 
 import com.exercise.contactusform.model.ContactUs;
 import jakarta.mail.Message;
